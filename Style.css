@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box; 
+    margin: 0px;
+    top: 0px;
+}
+
+body{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 9% 91%;
+    background-color: black;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+aside a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+    
+aside a p{
+    color: white;
+    font-family: fantasy;
+    font-size: 12px;
+    font-display: center;
+}
+
+#caja_1{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#buscador{
+    display: flex;
+    width: 100px;
+    height: 35px;
+    margin-top: 3%;
+    border: 5%;
+    border-radius: 20px;
+    border-color: rgb(44, 44, 44);
+    background-color: rgb(44, 44, 44);
+    font-family: Arial;
+    text-align: center;
+}
+
+#barra_lateral{
+    display: flex;
+    align-items: center;
+}
+
+#lupa.buscador{
+    display: flex;
+    align-items: center;
+}
+
+#barrarecomendado{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+#barrarecomendado button{
+    background-color: rgb(41, 40, 40) ;
+    border: 1px solid rgb(51, 49, 49);
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#sectionvideo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+}
+
+.imagen_Principal{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.logo_Perfil img{
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50px
+} 
+
+.descripcion_Video{
+    display: flex; 
+    margin-bottom: 40px;
+    color: aliceblue;
+}
+
+#p_titulo{
+    font-size: 14px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+#p_p{
+    width: 180px ;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: rgb(235, 238, 240);
+}
